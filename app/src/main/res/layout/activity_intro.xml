@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical"
+    android:fillViewport="true"
+    tools:context=".Activities.IntroActivity">
+
+    <RelativeLayout
+        android:background="@drawable/i_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img"
+            android:src="@drawable/logo"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="170dp"
+            android:layout_height="170dp" />
+
+        <RelativeLayout
+            android:id="@+id/lay1"
+            android:background="@drawable/round_box"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="-70dp"
+            android:layout_below="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:id="@+id/t1"
+            android:textColor="@color/text_color_black"
+            android:textSize="20sp"
+            android:fontFamily="@font/lato_regular"
+            android:text="@string/introduction_txt"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:backgroundTint="@color/light_blue"
+                android:text="Let\'s Go"
+                android:fontFamily="@font/lato_regular"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/loginn"
+            android:textColor="@color/text_color_black"
+            android:textSize="14sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:layout_below="@+id/register"
+            android:fontFamily="@font/lato_regular"
+            android:text="@string/existing"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

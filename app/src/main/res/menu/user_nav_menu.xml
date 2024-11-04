@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/mainCustomerFragment"
+            android:icon="@drawable/i_home"
+            android:iconTint="@color/white"
+            android:title="Home" />
+
+
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/i_location"
+            android:iconTint="@color/white"
+            android:title="Map" />
+
+        <item
+            android:id="@+id/tokens"
+            android:icon="@drawable/i_token"
+            android:iconTint="@color/white"
+            android:title="Tokens"
+            app:actionLayout="@layout/layout_switch" />
+
+        <item
+            android:id="@+id/creditsReceivedFragment"
+            android:icon="@drawable/i_token"
+            android:iconTint="@color/white"
+            android:title="Tokens Received"
+            android:visible="false" />
+        <item
+            android:id="@+id/creditsRemainingFragment"
+            android:icon="@drawable/i_token"
+            android:iconTint="@color/white"
+            android:title="Tokens Remaining"
+            android:visible="false" />
+        <item
+            android:id="@+id/refferals"
+            android:icon="@drawable/i_referral"
+            android:iconTint="@color/white"
+            android:title="Referral Code" />
+        <item
+            android:id="@+id/userProfileFragment"
+            android:icon="@drawable/i_profile"
+            android:iconTint="@color/white"
+            android:title="Profile" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/i_logout"
+            android:iconTint="@color/white"
+            android:title="Log Out" />
+
+    </group>
+
+</menu>

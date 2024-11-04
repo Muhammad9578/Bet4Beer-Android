@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/scanCodeFragment"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:iconTint="@color/white"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/viewUserRecordFragment"
+            android:icon="@drawable/view_report_ic"
+            android:iconTint="@color/white"
+            android:title="View Users Record " />
+
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@drawable/profile_ic"
+            android:iconTint="@color/white"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout_ic"
+            android:iconTint="@color/white"
+            android:title="Log Out" />
+
+    </group>
+
+
+</menu>

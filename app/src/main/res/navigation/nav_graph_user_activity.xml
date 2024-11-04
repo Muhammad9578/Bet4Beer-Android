@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_landing_activity"
+    app:startDestination="@id/takeSurveyFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/mainCustomerFragment"
+        android:name="com.example.beershop.Fragments.MainCustomerFragment"
+        android:label="fragment_main_customer"
+        tools:layout="@layout/fragment_main_customer">
+        <action
+            android:id="@+id/action_mainCustomerFragment_to_takeSurveyFragment"
+            app:destination="@id/screeningfragment" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/screeningfragment"
+        android:name="com.example.beershop.Fragments.ScreeningFragment"
+        android:label="fragment_screening"
+        tools:layout="@layout/fragment_screening">
+        <action
+            android:id="@+id/action_takeSurveyFragment_to_noFragment"
+            app:destination="@id/nofragment" />
+
+        <action
+            android:id="@+id/action_takeSurveyFragment_to_takesurveyFragment"
+            app:destination="@id/takeSurveyFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nofragment"
+        android:name="com.example.beershop.Fragments.No_Fragment"
+        android:label="fragment_no_"
+        tools:layout="@layout/fragment_no_">
+        <action
+            android:id="@+id/action_takeSurveyFragment_to_tierThreeFragment"
+            app:destination="@id/screeningfragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/three_fragment"
+        android:name="com.example.beershop.Fragments.SurveyThree_Fragment"
+        android:label="fragment_three_"
+        tools:layout="@layout/fragment_survey_3">
+        <action
+            android:id="@+id/action_takeSurveyFragment_to_surveyThreeFragment"
+            app:destination="@id/three_token_fragment" />
+        <action
+            android:id="@+id/action_takeSurveyFragment_to_webViewFragment"
+            app:destination="@id/webview_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/three_token_fragment"
+        android:name="com.example.beershop.Fragments.Token3Fragment"
+        android:label="fragment_three_3"
+        tools:layout="@layout/fragment_token3">
+        <action
+            android:id="@+id/action_takeSurveyFragment_to_surveyThreeFragment"
+            app:destination="@id/tokenFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/webview_fragment"
+        android:name="com.example.beershop.Fragments.Webview_Fragment"
+        android:label="fragment_three_web"
+        tools:layout="@layout/fragment_webview_">
+        <action
+            android:id="@+id/action_takeSurveyFragment_too_surveyThreeFragment"
+            app:destination="@id/tokenFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/tierOneFragment"
+        android:name="com.example.beershop.Fragments.UserSideFragments.TierOneFragment"
+        android:label="fragment_tier_one"
+        tools:layout="@layout/fragment_tier_one">
+        <action
+            android:id="@+id/action_tierOneFragment_to_tier1Q2Fragment"
+            app:destination="@id/tier1Q2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tierTwoFragment"
+        android:name="com.example.beershop.Fragments.UserSideFragments.TierTwoFragment"
+        android:label="fragment_tier_two"
+        tools:layout="@layout/fragment_tier_two">
+        <action
+            android:id="@+id/action_tierTwoFragment_to_mainCustomerFragment"
+            app:destination="@id/mainCustomerFragment" />
+        <action
+            android:id="@+id/action_tierTwoFragment_to_tier2Q2Fragment"
+            app:destination="@id/tier2Q2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tierThreeFragment"
+        android:name="com.example.beershop.Fragments.SurvetThree_Frag"
+        android:label="fragment_tier_three"
+        tools:layout="@layout/fragment_tier_three" />
+    <fragment
+        android:id="@+id/tokenFragment"
+        android:name="com.example.beershop.Fragments.TokenFragment"
+        android:label="fragment_token"
+        tools:layout="@layout/fragment_token">
+        <action
+            android:id="@+id/action_tokenFragment_to_mainCustomerFragment"
+            app:destination="@id/mainCustomerFragment" />
+        <action
+            android:id="@+id/action_tokenFragment_to_tierTwoFragment"
+            app:destination="@id/tierTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/takeSurveyFragment"
+        android:name="com.example.beershop.Fragments.TakeSurveyFragment"
+        android:label="fragment_take_survey"
+        tools:layout="@layout/fragment_take_survey">
+        <action
+            android:id="@+id/action_takeSurveyFragment_to_tierOneFragment"
+            app:destination="@id/three_fragment" />
+        <action
+            android:id="@+id/action_takeSurveyFragment_to_tierThreeFragment"
+            app:destination="@id/tierThreeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.example.beershop.Fragments.UserProfileFragment"
+        android:label="fragment_user_profile"
+        tools:layout="@layout/fragment_user_profile">
+        <action
+            android:id="@+id/action_userProfileFragment_to_mainCustomerFragment"
+            app:destination="@id/mainCustomerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/creditsReceivedFragment"
+        android:name="com.example.beershop.Fragments.CreditsReceivedFragment"
+        android:label="fragment_credits_received"
+        tools:layout="@layout/fragment_credits_received">
+        <action
+            android:id="@+id/action_creditsReceivedFragment_to_mainCustomerFragment"
+            app:destination="@id/mainCustomerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/creditsRemainingFragment"
+        android:name="com.example.beershop.Fragments.CreditsRemainingFragment"
+        android:label="fragment_credits_remaining"
+        tools:layout="@layout/fragment_credits_remaining">
+        <action
+            android:id="@+id/action_creditsRemainingFragment_to_mainCustomerFragment"
+            app:destination="@id/mainCustomerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderHistoryFragment"
+        android:name="com.example.beershop.Fragments.OrderHistoryFragment"
+        android:label="fragment_order_history"
+        tools:layout="@layout/fragment_order_history">
+        <action
+            android:id="@+id/action_orderHistoryFragment_to_mainCustomerFragment"
+            app:destination="@id/mainCustomerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tier1Q2Fragment"
+        android:name="com.example.beershop.Fragments.UserSideFragments.Tier1Q2Fragment"
+        android:label="fragment_tier1_q2"
+        tools:layout="@layout/fragment_tier1_q2">
+        <action
+            android:id="@+id/action_tier1Q2Fragment_to_tier1Q3Fragment"
+            app:destination="@id/tier1Q3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tier1Q3Fragment"
+        android:name="com.example.beershop.Fragments.UserSideFragments.Tier1Q3Fragment"
+        android:label="fragment_tier1_q3"
+        tools:layout="@layout/fragment_tier1_q3">
+        <action
+            android:id="@+id/action_tier1Q3Fragment_to_tokenFragment"
+            app:destination="@id/tokenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/token2Fragment"
+        android:name="com.example.beershop.Fragments.Token2Fragment"
+        android:label="fragment_token2"
+        tools:layout="@layout/fragment_token2">
+        <action
+            android:id="@+id/action_token2Fragment_to_mainCustomerFragment"
+            app:destination="@id/mainCustomerFragment" />
+        <action
+            android:id="@+id/action_token2Fragment_to_tierThreeFragment"
+            app:destination="@id/tierThreeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tier2Q2Fragment"
+        android:name="com.example.beershop.Fragments.UserSideFragments.Tier2Q2Fragment"
+        android:label="fragment_tier2_q2"
+        tools:layout="@layout/fragment_tier2_q2">
+        <action
+            android:id="@+id/action_tier2Q2Fragment_to_token2Fragment"
+            app:destination="@id/token2Fragment" />
+    </fragment>
+</navigation>

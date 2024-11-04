@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Bet4Beer</string>
+
+    <string name="logo">Beer Shop Logo</string>
+    <string name="login_large">LOGIN</string>
+    <string name="reset_your_password"><u>Reset your password</u></string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="signup_large">SIGN UP</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="reset">RESET</string>
+    <string name="full_name">Full Name</string>
+    <string name="c_password">Confirm Password</string>
+    <string name="upload_picture">Upload Picture</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="take_a_survey">Take a Survey and get \nFree Beer.</string>
+    <string name="take_survey">Take Survey</string>
+    <string name="please_choose_a_survey">Thirsty? Let\'s get started</string>
+    <string name="survey_1">Survey 1</string>
+    <string name="survey_2">Survey 2</string>
+    <string name="survey_3">Survey 3</string>
+    <string name="upload_snapshot">Upload SnapShot</string>
+    <string name="deposit_now">Deposit Now</string>
+    <string name="tier_1">Tier 1</string>
+    <string name="next">NEXT</string>
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_word_meaning_dialog_title">show dialog</string>
+    <string name="sign_up"><u>SIGN UP</u></string>
+    <string name="emails">I would like to sign up to receive email updates from Bet4Beer and selected partners</string>
+    <string name="terms_text">I can confirm i have read and accepted the Bet4Beer terms &amp; conditions</string>
+    <string name="new_account_text">Open a sports betting account with BETMGM and deposit $10 to receive 10 additional Bets4Beers tokens. Once you have completed registration and made your $10 deposit send us a screenshot so we can verify that it has been done and we\'ll release the final 10 Bet4Beer tokens. Bosh. It\'s as easy as that. \n\nRefer a friend to Bets4Beers and receive 2 MORE tokens!</string>
+    <string name="log_in">Login</string>
+    <string name="log"><u>LOGIN</u></string>
+    <string name="credits_received">Credits Received</string>
+    <string name="credits_remaining">Credits Remaining</string>
+    <string name="order_history">Order History</string>
+    <string name="tier1"><b>TIER 1</b>\n1* Token=$6</string>
+    <string name="tier2"><b>TIER 2</b>\n3* Token=$18</string>
+    <string name="tier3"><b>TIER 3</b>\n10* Token=$60</string>
+    <string name="introduction_txt"><b>Welcome to Bet4Beer.</b>\n\nThe app that gives you\n<b>FREE foods and drink</b>\nin exchange for
+        answering questions about your betting preferences.\n<b>Easy as pie!</b></string>
+    <string name="promoter_prompt">We\'re glad you love our app! Now please rate us in the app store!</string>
+    <string name="detractor_prompt">We\'re sorry you\'re experiencing problems with our app, we promise to address the issues you experienced as quickly as possible.</string>
+    <string name="thanks_prompt">Thanks for responding to our survey!</string>
+    <string name="error_prompt">SM SDK Error - see logs</string>
+    <string name="register"><u>REGISTER NEW ACCOUNT</u></string>
+    <string name="existing"><u>LOGIN TO EXISTING ACCOUNT</u></string>
+    <string name="token_txt"><b>Unlock all three tiers to receive 14 tokens worth $84!</b>\n\nExchange tokens for FREE food and drinks at the bar - it\'s as easy as that.</string>
+    <string name="no_txt">Aww snap. if you\'re not interested in gambling either now or in the future, then Bet4Beer isn\'t one for you.\n\nBut have a cold one on us anyway - just scan this QR code at the bar - as a thanks for downloading our app.</string>
+    <string name="a_three"><b>Great job! You\'ve completed Tier 3.</b>\n\nYour account has automatically been updated with 10 token, worth $60.\n\nExchange token at bar for FREE food or drink.</string>
+    <string name="d_three">Sorry! You image isn\'t approved. \n\n Goodbye!</string>
+    <string name="t_three">Bosh!\nGreat job. Thanks for submitting your screenshot.\nOne of the team will be in touch quicker than you can say, "make mine a cold one" to confirm the 10 additional tokens have been added to your account.</string>
+    <string name="refer">Want free tokens?\nSimply refer a friend to try Bet4Beer and we will credit your account with one free token worth $8 for every new sign up.\nShare your unique invite code.</string>
+    <string name="t1"><b>Great job! You\'ve completed Tier 1.</b>\n\nYour account has automatically been updated with 1 token, worth $6.\n\nExchange token at the bar for FREE food or drinks.</string>
+    <string name="t2"><b>Bet4Beer</b></string>
+    <string name="t3">$6 token</string>
+    <string name="t4"><b>Great job! You\'ve completed Tier 2.</b>\n\nYour account has automatically been updated with 3 tokens, worth $18.\n\nExchange tokens at the bar for FREE food and drinks.</string>
+    <string name="t5">$18 token</string>
+    <string name="t6"></string>
+    <string name="t7">$60 token</string>
+</resources>

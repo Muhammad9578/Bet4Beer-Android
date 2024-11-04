@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "918044328181",
+    "firebase_url": "https://bet4beer-default-rtdb.firebaseio.com",
+    "project_id": "bet4beer",
+    "storage_bucket": "bet4beer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918044328181:android:126c9e624ade61cf1f85bc",
+        "android_client_info": {
+          "package_name": "com.example.beershop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918044328181-6p4i1s180ssjm7ihm3b3qd90tbjmu2ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGvpmziaERc8mS1GOXcxVueAwJSK2XyTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918044328181-6p4i1s180ssjm7ihm3b3qd90tbjmu2ps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
